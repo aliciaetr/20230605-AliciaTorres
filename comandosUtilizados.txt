@@ -1,0 +1,26 @@
+103  cd 20230605-AliciaTorres/
+  104  git remote add origin https://github.com/aliciaetr/20230605-AliciaTorres.git
+  105  git remote add origin https://github.com/aliciaetr/20230605-AliciaTorres.git
+  106  cd 20230605-AliciaTorres/
+  107  git clone https://github.com/aliciaetr/20230605-AliciaTorres.git
+  108  code .
+  109  git status
+  110  cd 20230605-AliciaTorres/
+  111  touch comandos.txt main.js index.html
+  112  git status
+  113  git add .
+  114  git commit -m "commit 01 de Alicia Torres"
+  115  git push origin main
+  116  git checkout -b feature01
+  117  mkdir terminal hardware
+  118  git status
+  119  git add .
+  120  git commit -m "commit 02 de AliciaTorres"
+  121  git push origin feature01
+  122  git checkout -b feature02
+  123  git status
+  124  git add .
+  125  git commit -m "commit 03 de AliciaTorres"
+  126  git push origin feature02
+  127  git checkout main
+  128  history
